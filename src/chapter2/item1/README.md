@@ -1,4 +1,4 @@
-#ITEM 1 생성자 대신 정적 팩터리 메서드를 고려하라.
+# ITEM 1 생성자 대신 정적 팩터리 메서드를 고려하라.
 
 --------------------------------------------
 
@@ -84,7 +84,7 @@ public class StaticFactoryFooEx1 {
 }
 
 ````
-###정적 팩터리 메서드를 사용하여 객체를 생성한다면 위와 같이 이름을 지어줄 수 있다
+### 정적 팩터리 메서드를 사용하여 객체를 생성한다면 위와 같이 이름을 지어줄 수 있다
 
 이름이 있다면 객체 생성시 해당 객체의 의미를 파악하기가 더 쉬워진다
 ```` java
@@ -93,7 +93,7 @@ public class StaticFactoryFooEx1 {
         StaticFactoryFooEx1 staticFactoryFooEx1Sample2 = StaticFactoryFooEx1.getNewInstanceByNMAndAge("hone", 20);    }
 ````
 
-###정적 팩터리 메서드를 사용하면 호출될 때마다 인스턴스를 새로 생성하지 않아도 된다
+### 정적 팩터리 메서드를 사용하면 호출될 때마다 인스턴스를 새로 생성하지 않아도 된다
 
 ```` java
 public class StaticFactoryFooEx2 {
@@ -116,7 +116,7 @@ public class StaticFactoryFooEx2 {
         //출력값 true
     }
 ````
-###정적 팩터리 메서드를 사용하면 반환 타입의 하위 타입 객체를 반환이 가능하다
+### 정적 팩터리 메서드를 사용하면 반환 타입의 하위 타입 객체를 반환이 가능하다
 
 정적 팩터리 메서드를 사용하여 부모 클래스에 getPrint()라는 추상 메서드를 선언한다
 
