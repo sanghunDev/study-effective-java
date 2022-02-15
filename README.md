@@ -13,3 +13,4 @@
   
   * [생성자 대신 정적 팩터리 메서드를 고려하라](https://github.com/sanghunDev/study-effective-java/tree/master/src/chapter2/item1)
   * [생성자에 매개변수가 많다면 빌더를 고려하라](https://github.com/sanghunDev/study-effective-java/tree/master/src/chapter2/item2)
+  * [private 생성자나 열거타입으로 싱글턴임을 보증하라](https://github.com/sanghunDev/study-effective-java/tree/master/src/chapter2/item3)
