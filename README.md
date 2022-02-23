@@ -24,3 +24,4 @@
 ### 3장 모든 객체의 공통 메서드
 
   * [equals는 일반 규약을 지켜 재정의하라](https://github.com/sanghunDev/study-effective-java/tree/master/src/chapter3/item10)
+  * [equals를 재정의하려거든 hashCode도 재정의하라](https://github.com/sanghunDev/study-effective-java/tree/master/src/chapter3/item11)
